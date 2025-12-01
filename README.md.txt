@@ -1,11 +1,11 @@
-⚠️ Data Disclaimer
+Data Disclaimer
 
 This project is built on a fully synthetic, randomly generated dataset
 created solely for portfolio and educational demonstration purposes.
 All equipment, engineers, metrics, and incidents are fictional.
 Any resemblance to real-world operations is purely coincidental.
 
-✨ Executive Summary
+Executive Summary
 
 This is a strategic Tableau BI dashboard designed to support decision-making for the Operations Leadership and Executive Management.
 
@@ -22,7 +22,7 @@ enhance production reliability and operational continuity
 The project demonstrates a complete end-to-end data workflow:
 synthetic generation → BigQuery → SQL processing → KPI modeling → Tableau dashboard.
 
-⚙️ Data Pipeline & Methodology
+Data Pipeline & Methodology
 1. Data Preparation (Google BigQuery / SQL)
 
 Source tables:
@@ -36,7 +36,7 @@ equipment_inventory
 equipment_location
 
 All data was processed using a custom SQL script:
-📄 scripts/data_preparation.sql
+scripts/data_preparation.sql
 
 Core transformation steps:
 
@@ -64,7 +64,7 @@ creation of an interactive executive dashboard with full cross-filtering
 
 segmentation of incidents by criticality level (Low / Medium / High)
 
-🎯 Key Analytical Insights
+Key Analytical Insights
 1. Total Criticality Score — Risk-Based Classification Model
 
 The centerpiece of the dashboard is a custom risk model that classifies downtime events
@@ -110,7 +110,7 @@ MTTR
 
 MTBF
 
-🧰 Technologies Used
+Technologies Used
 
 Google BigQuery (SQL)
 
@@ -118,14 +118,14 @@ Tableau Tableau Public
 
 Statistical Modeling & Risk Scoring
 
-📁 Repository Structure
+Repository Structure
 README.md                                        # Project documentation
 dashbords/Operational_Downtime_Insights.twbx     # Tableau workbook
 imagies/dashboard_screenshot                     # Dashboard screenshot   
 scripts/
     data_preparation.sql                         # SQL data transformation
 
-📌 Project Objectives
+Project Objectives
 
 This project demonstrates the ability to:
 
@@ -136,5 +136,6 @@ work with large datasets in BigQuery
 build risk-based classification models
 
 create management-level dashboards with KPIs
+
 
 present data as it is done in real industrial operations
